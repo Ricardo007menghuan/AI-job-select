@@ -1,0 +1,53 @@
+{
+  "city": "",
+  "city_code": "",
+  "home": {
+    "name": "",
+    "lat": 0,
+    "lng": 0
+  },
+  "districts": [],
+  "commute": {
+    "near_minutes": 45,
+    "prefer_max_minutes": 60
+  },
+  "company_filter": {
+    "min_founded_years": 3,
+    "min_registered_capital_wan": 100
+  },
+  "salary": {
+    "min_base_k": 5
+  },
+  "llm": {
+    "base_url": "http://127.0.0.1:8000/v1",
+    "model": "deepseek-chat"
+  },
+  "browser": {
+    "channel": "msedge",
+    "headless": false
+  },
+  "sources": {
+    "boss": {
+      "enabled": true,
+      "daily_limit": 150
+    },
+    "liepin": {
+      "enabled": false,
+      "daily_limit": 100
+    }
+  },
+  "search_keywords": [],
+  "resume_keywords": {
+    "primary": [],
+    "secondary": []
+  },
+  "map_api": {
+    "provider": "amap",
+    "key": ""
+  },
+  "collect_server": {
+    "port": 8890,
+    "target_per_day": 150,
+    "max_cards_per_run": 180
+  }
+}

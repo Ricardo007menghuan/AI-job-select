@@ -1,0 +1,14 @@
+{
+  "name": "job-hunter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal job aggregation tool for Shenzhen (personal use only)",
+  "type": "commonjs",
+  "main": "scripts/run-daily.js",
+  "scripts": {
+    "run": "node scripts/run-daily.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
